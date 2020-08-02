@@ -1,0 +1,27 @@
+/* GLOBAL*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: arial, helvetica, century, sans-serif;
+  font-size: 100%; //16px
+  line-height: 1.8;
+}
+
+header {
+  min-height: 70px;
+  width: 100%;
+  background: rgba(255, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+header > div {
+  background: #646464;
+}
+header > nav {
+  background: rgb(33, 144, 255);
+  grid-column: 2/4;
+}
