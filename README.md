@@ -56,6 +56,15 @@
 # SALES 
 ---------------
 # Data to capture
-- Customer details
-- Export Quantity ordered per customer per variety
-- Local Sale Quantity ordered per customer per variety
+- Customer details - name, address, contacts
+- Quantity ordered by customer 
+- Variety ordered by customer
+- Standard unit price for each variety
+- Selling unit price
+- Sales person
+
+# Reports/output
+- Invoice: 	- Customer's name, address, contacts
+			- Quntity ordered
+			- Variety ordered
+			- Date ordered

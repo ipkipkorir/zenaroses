@@ -9,7 +9,7 @@
 }
 
 header {
-  min-height: 70px;
+  min-height: 50px;
   width: 100%;
   background: rgba(255, 0, 0, 0.5);
   position: fixed;
@@ -19,9 +19,9 @@ header {
 }
 
 header > div {
-  background: #646464;
+  background: rgb(125, 125, 125);
 }
 header > nav {
-  background: rgb(33, 144, 255);
+  background: rgb(125, 125, 125);
   grid-column: 2/4;
 }
