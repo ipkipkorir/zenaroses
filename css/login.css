@@ -16,7 +16,7 @@ body {
 	height: 80vh;
 	padding: 0px 4px;
 	box-shadow: 2px 4px 8px #000000;
-	background: #f4f4f4;
+	background: #f3f3f3;
 	border-radius: 15px;
 }
 .login-header {
@@ -59,8 +59,8 @@ form {
 	height: 40px;
 	width: 90%;
 	padding: 8px 6px;
-	font-size: 16px;
-	border: 1px solid #ccc;
+	font-size: 15px;
+	border: 1.5px solid #ccc;
 	border-radius: 5px;
 }
 .btn {
@@ -76,4 +76,12 @@ form {
 	cursor: pointer;
 	font-size: 22px;
 	width: 30%;
+}
+
+/*Media Queries*/
+@media screen and (max-width: 768px){
+	.container {
+		width: 90%;
+		
+	}
 }
