@@ -29,7 +29,7 @@ body {
 .login-header > img {
 	margin-top: 0;
 	width: 15%;
-	height: auto;
+	height: auto; 
 }
 .login-header > h2 {
 	font-size: 22px;
@@ -42,6 +42,7 @@ form {
 	padding: 10px;
 	border: 1px solid #ccc;
 	border-radius: 15px;
+	height: auto;
 }
 .input-group {
 	margin: 20px 0 28px;
@@ -70,18 +71,28 @@ form {
 	border: none; 
 	background: maroon;
 	border-radius: 5px;
-	width: 25%;
+	width: 90%;
 }
 .btn:hover {
 	cursor: pointer;
-	font-size: 22px;
-	width: 30%;
+	font-size: 20px;
 }
 
 /*Media Queries*/
 @media screen and (max-width: 768px){
+	
 	.container {
 		width: 90%;
-		
+		height: auto;
+		padding-bottom: 8px;
+	}
+	.login-header {
+		margin-bottom: 15px;
+	}
+	form {
+		height: auto;
+	}
+	.input-group {
+	margin: 12px 0 20px;
 	}
 }
